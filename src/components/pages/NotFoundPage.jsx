@@ -1,8 +1,10 @@
+import React from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import ApperIcon from '../components/ApperIcon';
+import ApperIcon from '@/components/ApperIcon';
+import MotionButton from '@/components/molecules/MotionButton';
 
-function NotFound() {
+function NotFoundPage() {
   const navigate = useNavigate();
 
   return (
@@ -18,35 +20,31 @@ function NotFound() {
         >
           <ApperIcon name="Package" className="w-16 h-16 text-surface-300 mx-auto" />
         </motion.div>
-        
+
         <h1 className="mt-4 text-4xl font-heading font-bold text-gray-900">404</h1>
         <h2 className="mt-2 text-xl font-medium text-secondary">Page Not Found</h2>
         <p className="mt-4 text-surface-500">
           The page you're looking for doesn't exist in the inventory system.
         </p>
-        
+
         <div className="mt-8 space-x-4">
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
+          <MotionButton
             onClick={() => navigate('/dashboard')}
-            className="px-6 py-3 bg-primary text-white rounded-lg font-medium hover:shadow-lg transition-all duration-200"
+            className="px-6 py-3 bg-primary text-white font-medium hover:shadow-lg"
           >
             Go to Dashboard
-          </motion.button>
-          
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
+          </MotionButton>
+
+          <MotionButton
             onClick={() => navigate(-1)}
-            className="px-6 py-3 border border-surface-300 text-secondary rounded-lg font-medium hover:bg-surface-50 transition-all duration-200"
+            className="px-6 py-3 border border-surface-300 text-secondary font-medium hover:bg-surface-50"
           >
             Go Back
-          </motion.button>
+          </MotionButton>
         </div>
       </motion.div>
     </div>
   );
 }
 
-export default NotFound;
+export default NotFoundPage;
