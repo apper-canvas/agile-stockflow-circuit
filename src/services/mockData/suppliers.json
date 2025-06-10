@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Dell Technologies",
+    "contactName": "Sarah Johnson",
+    "email": "sarah.johnson@dell.com",
+    "phone": "+1-555-0123",
+    "address": "Round Rock, TX, USA",
+    "leadTime": 7,
+    "createdAt": "2023-12-01T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "name": "Logitech International",
+    "contactName": "Michael Chen",
+    "email": "michael.chen@logitech.com",
+    "phone": "+1-555-0456",
+    "address": "Fremont, CA, USA",
+    "leadTime": 5,
+    "createdAt": "2023-11-15T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "name": "Apple Inc.",
+    "contactName": "Emily Rodriguez",
+    "email": "emily.rodriguez@apple.com",
+    "phone": "+1-555-0789",
+    "address": "Cupertino, CA, USA",
+    "leadTime": 10,
+    "createdAt": "2023-10-20T00:00:00Z"
+  },
+  {
+    "id": "4",
+    "name": "Samsung Electronics",
+    "contactName": "David Kim",
+    "email": "david.kim@samsung.com",
+    "phone": "+1-555-0987",
+    "address": "San Jose, CA, USA",
+    "leadTime": 8,
+    "createdAt": "2023-09-10T00:00:00Z"
+  }
+]

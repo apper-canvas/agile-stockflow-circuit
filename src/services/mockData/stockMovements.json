@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "productId": "1",
+    "type": "add",
+    "quantity": 10,
+    "reason": "purchase_order",
+    "notes": "Monthly restock from Dell",
+    "timestamp": "2024-01-15T08:30:00Z",
+    "userId": "user1"
+  },
+  {
+    "id": "2",
+    "productId": "2",
+    "type": "remove",
+    "quantity": 7,
+    "reason": "sale",
+    "notes": "Bulk order for corporate client",
+    "timestamp": "2024-01-14T16:45:00Z",
+    "userId": "user1"
+  },
+  {
+    "id": "3",
+    "productId": "3",
+    "type": "add",
+    "quantity": 15,
+    "reason": "purchase_order",
+    "notes": "New gaming keyboard inventory",
+    "timestamp": "2024-01-13T10:20:00Z",
+    "userId": "user1"
+  },
+  {
+    "id": "4",
+    "productId": "4",
+    "type": "remove",
+    "quantity": 2,
+    "reason": "sale",
+    "notes": "Individual customer purchases",
+    "timestamp": "2024-01-12T15:15:00Z",
+    "userId": "user1"
+  },
+  {
+    "id": "5",
+    "productId": "5",
+    "type": "remove",
+    "quantity": 3,
+    "reason": "sale",
+    "notes": "Premium tablet sales",
+    "timestamp": "2024-01-11T12:30:00Z",
+    "userId": "user1"
+  },
+  {
+    "id": "6",
+    "productId": "1",
+    "type": "remove",
+    "quantity": 5,
+    "reason": "damaged",
+    "notes": "Water damage during transport",
+    "timestamp": "2024-01-10T09:15:00Z",
+    "userId": "user1"
+  },
+  {
+    "id": "7",
+    "productId": "2",
+    "type": "add",
+    "quantity": 20,
+    "reason": "purchase_order",
+    "notes": "Quarterly restock",
+    "timestamp": "2024-01-09T14:45:00Z",
+    "userId": "user1"
+  },
+  {
+    "id": "8",
+    "productId": "3",
+    "type": "remove",
+    "quantity": 5,
+    "reason": "returned",
+    "notes": "Customer returns - defective units",
+    "timestamp": "2024-01-08T11:20:00Z",
+    "userId": "user1"
+  }
+]
